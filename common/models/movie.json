@@ -1,0 +1,51 @@
+{
+  "name": "Movie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "topImage": {
+      "type": "string",
+      "required": true
+    },
+    "genres": {
+      "type": "array",
+      "required": true
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "number",
+      "required": true
+    },
+    "duration": {
+      "type": "number",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "string",
+      "required": true
+    },
+    "casts": {
+      "type": "array",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

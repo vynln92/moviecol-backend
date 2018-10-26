@@ -1,0 +1,38 @@
+{
+  "name": "Review",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userName": {
+      "type": "string",
+      "required": true
+    },
+    "userImage": {
+      "type": "string",
+      "required": true
+    },
+    "movieId": {
+      "type": "string",
+      "required": true
+    },
+    "publishedAt": {
+      "type": "number",
+      "required": true
+    },
+    "score": {
+      "type": "int",
+      "required": true
+    },
+    "comment": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
