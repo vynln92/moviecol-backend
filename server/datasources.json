@@ -1,0 +1,36 @@
+// LOCAL
+// {
+//   "db": {
+//     "name": "db",
+//     "connector": "memory"
+//   },
+//   "band-app-db": {
+//     "host": "127.0.0.1",
+//     "port": 27017,
+//     "url": "",
+//     "database": "band-app-db",
+//     "password": "",
+//     "name": "band-app-db",
+//     "user": "",
+//     "connector": "mongodb"
+//   }
+// }
+
+
+// HEROKU
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "band-app-db": {
+    "host": "ds241677.mlab.com",
+    "port": 41677,
+    "url": "",
+    "database": "moviecol-app",
+    "password": "Bboymean1243",
+    "name": "moviecol-app",
+    "user": "vynln",
+    "connector": "mongodb"
+  }
+}
